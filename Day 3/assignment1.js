@@ -8,8 +8,7 @@
 	rv(3)
 	Rv = getFactorialImpl()
 	rv(5)*/
-
-      
+   
 function getFactorial1(n){
     if(n==0){
         return 0;

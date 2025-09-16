@@ -10,14 +10,13 @@ function add(...a) {
             console.log("Odd numbers "+a[i])
         }
     }
-    
+    const max=Math.max(...a);
 
     console.log("Addition of " + (a.length) + " numbers = " + sum);
-    
+    console.log("Maximum "+max);
 
 }
 
 add(12, 23, 34);
 add(1, 2);
 add(18, 20, 33);
-add();
